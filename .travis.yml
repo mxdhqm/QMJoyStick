@@ -1,1 +1,4 @@
 language: objective-c
+osx_image: xcode8
+xcode_project: QMJoyStickDemo/QMJoyStickDemo.xcodeproj
+xcode_scheme: QMJoyStick

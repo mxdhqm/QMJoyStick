@@ -1,7 +1,7 @@
 # QMJoyStick
 
-[![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/mxdhqm/QMJoyStick/blob/master/LICENSE)&nbsp;
-[![Build Status](https://travis-ci.org/mxdhqm/QMJoyStick.svg?branch=master)](https://travis-ci.org/mxdhqm/QMJoyStick)
+[![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/mxdhqm/QMJoyStick/blob/master/LICENSE)&nbsp;
+[![Build Status](https://travis-ci.org/mxdhqm/QMJoyStick.svg?branch=master)](https://travis-ci.org/mxdhqm/QMJoyStick)&nbsp;
 
 iOS摇杆（UIView实现）
 
