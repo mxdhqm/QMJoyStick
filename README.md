@@ -1,4 +1,8 @@
 # QMJoyStick
+
+[![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/mxdhqm/QMJoyStick/blob/master/LICENSE)&nbsp;
+[![Build Status](https://travis-ci.org/ibireme/YYKit.svg?branch=master)](https://travis-ci.org/ibireme/YYKit)
+
 iOS摇杆（UIView实现）
 
 演示
