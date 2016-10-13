@@ -9,6 +9,7 @@ iOS摇杆（UIView实现）
 使用方法
 ==============
 //位置自己定义
+
 `QMJoyStick *joystick = [[QMJoyStick alloc]initWithFrame:CGRectMake(100, 100, 100, 100)];`
 
 `[self.view addSubview:joystick];`
