@@ -4,4 +4,4 @@ xcode_project: QMJoyStickDemo/QMJoyStickDemo.xcodeproj
 xcode_scheme: QMJoyStick
 
 script:
-- xctool -project QMJoyStickDemo/QMJoyStickDemo.xcodeproj -scheme QMJoyStick build test CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
+xcodebuild -project QMJoyStickDemo/QMJoyStickDemo.xcodeproj -target QMJoyStick -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
