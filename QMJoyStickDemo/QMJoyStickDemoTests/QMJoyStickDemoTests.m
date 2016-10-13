@@ -1,6 +1,6 @@
 //
-//  QMJoyStickTests.m
-//  QMJoyStickTests
+//  QMJoyStickDemoTests.m
+//  QMJoyStickDemoTests
 //
 //  Created by metthew on 2016/10/13.
 //  Copyright © 2016年 metthew. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface QMJoyStickTests : XCTestCase
+@interface QMJoyStickDemoTests : XCTestCase
 
 @end
 
-@implementation QMJoyStickTests
+@implementation QMJoyStickDemoTests
 
 - (void)setUp {
     [super setUp];

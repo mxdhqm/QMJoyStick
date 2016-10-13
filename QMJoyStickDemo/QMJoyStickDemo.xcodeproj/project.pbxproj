@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B46986791DAF6B2100C7E726 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B46986781DAF6B2100C7E726 /* main.m */; };
+		B469867C1DAF6B2100C7E726 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B469867B1DAF6B2100C7E726 /* AppDelegate.m */; };
+		B469867F1DAF6B2100C7E726 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B469867E1DAF6B2100C7E726 /* ViewController.m */; };
+		B46986821DAF6B2100C7E726 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B46986801DAF6B2100C7E726 /* Main.storyboard */; };
+		B46986841DAF6B2100C7E726 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B46986831DAF6B2100C7E726 /* Assets.xcassets */; };
+		B46986871DAF6B2100C7E726 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B46986851DAF6B2100C7E726 /* LaunchScreen.storyboard */; };
+		B46986921DAF6B2100C7E726 /* QMJoyStickDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B46986911DAF6B2100C7E726 /* QMJoyStickDemoTests.m */; };
+		B469869D1DAF6B2100C7E726 /* QMJoyStickDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B469869C1DAF6B2100C7E726 /* QMJoyStickDemoUITests.m */; };
+		B46986B41DAF6B8100C7E726 /* QMJoyStick.m in Sources */ = {isa = PBXBuildFile; fileRef = B46986B21DAF6B8100C7E726 /* QMJoyStick.m */; };
+		B46986B51DAF6B8100C7E726 /* stick_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = B46986B31DAF6B8100C7E726 /* stick_normal.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B469868E1DAF6B2100C7E726 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B469866C1DAF6B2100C7E726 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B46986731DAF6B2100C7E726;
+			remoteInfo = QMJoyStickDemo;
+		};
+		B46986991DAF6B2100C7E726 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B469866C1DAF6B2100C7E726 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B46986731DAF6B2100C7E726;
+			remoteInfo = QMJoyStickDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B46986741DAF6B2100C7E726 /* QMJoyStickDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QMJoyStickDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B46986781DAF6B2100C7E726 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B469867A1DAF6B2100C7E726 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B469867B1DAF6B2100C7E726 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B469867D1DAF6B2100C7E726 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B469867E1DAF6B2100C7E726 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B46986811DAF6B2100C7E726 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B46986831DAF6B2100C7E726 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B46986861DAF6B2100C7E726 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B46986881DAF6B2100C7E726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B469868D1DAF6B2100C7E726 /* QMJoyStickDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QMJoyStickDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B46986911DAF6B2100C7E726 /* QMJoyStickDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QMJoyStickDemoTests.m; sourceTree = "<group>"; };
+		B46986931DAF6B2100C7E726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B46986981DAF6B2100C7E726 /* QMJoyStickDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QMJoyStickDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B469869C1DAF6B2100C7E726 /* QMJoyStickDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QMJoyStickDemoUITests.m; sourceTree = "<group>"; };
+		B469869E1DAF6B2100C7E726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B46986B11DAF6B8100C7E726 /* QMJoyStick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMJoyStick.h; sourceTree = "<group>"; };
+		B46986B21DAF6B8100C7E726 /* QMJoyStick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMJoyStick.m; sourceTree = "<group>"; };
+		B46986B31DAF6B8100C7E726 /* stick_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stick_normal.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B46986711DAF6B2100C7E726 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B469868A1DAF6B2100C7E726 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B46986951DAF6B2100C7E726 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B469866B1DAF6B2100C7E726 = {
+			isa = PBXGroup;
+			children = (
+				B46986761DAF6B2100C7E726 /* QMJoyStickDemo */,
+				B46986901DAF6B2100C7E726 /* QMJoyStickDemoTests */,
+				B469869B1DAF6B2100C7E726 /* QMJoyStickDemoUITests */,
+				B46986751DAF6B2100C7E726 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B46986751DAF6B2100C7E726 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B46986741DAF6B2100C7E726 /* QMJoyStickDemo.app */,
+				B469868D1DAF6B2100C7E726 /* QMJoyStickDemoTests.xctest */,
+				B46986981DAF6B2100C7E726 /* QMJoyStickDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B46986761DAF6B2100C7E726 /* QMJoyStickDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B46986B01DAF6B8100C7E726 /* QMJoyStick */,
+				B469867A1DAF6B2100C7E726 /* AppDelegate.h */,
+				B469867B1DAF6B2100C7E726 /* AppDelegate.m */,
+				B469867D1DAF6B2100C7E726 /* ViewController.h */,
+				B469867E1DAF6B2100C7E726 /* ViewController.m */,
+				B46986801DAF6B2100C7E726 /* Main.storyboard */,
+				B46986831DAF6B2100C7E726 /* Assets.xcassets */,
+				B46986851DAF6B2100C7E726 /* LaunchScreen.storyboard */,
+				B46986881DAF6B2100C7E726 /* Info.plist */,
+				B46986771DAF6B2100C7E726 /* Supporting Files */,
+			);
+			path = QMJoyStickDemo;
+			sourceTree = "<group>";
+		};
+		B46986771DAF6B2100C7E726 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B46986781DAF6B2100C7E726 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B46986901DAF6B2100C7E726 /* QMJoyStickDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B46986911DAF6B2100C7E726 /* QMJoyStickDemoTests.m */,
+				B46986931DAF6B2100C7E726 /* Info.plist */,
+			);
+			path = QMJoyStickDemoTests;
+			sourceTree = "<group>";
+		};
+		B469869B1DAF6B2100C7E726 /* QMJoyStickDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B469869C1DAF6B2100C7E726 /* QMJoyStickDemoUITests.m */,
+				B469869E1DAF6B2100C7E726 /* Info.plist */,
+			);
+			path = QMJoyStickDemoUITests;
+			sourceTree = "<group>";
+		};
+		B46986B01DAF6B8100C7E726 /* QMJoyStick */ = {
+			isa = PBXGroup;
+			children = (
+				B46986B11DAF6B8100C7E726 /* QMJoyStick.h */,
+				B46986B21DAF6B8100C7E726 /* QMJoyStick.m */,
+				B46986B31DAF6B8100C7E726 /* stick_normal.png */,
+			);
+			name = QMJoyStick;
+			path = ../../QMJoyStick;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B46986731DAF6B2100C7E726 /* QMJoyStickDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B46986A11DAF6B2100C7E726 /* Build configuration list for PBXNativeTarget "QMJoyStickDemo" */;
+			buildPhases = (
+				B46986701DAF6B2100C7E726 /* Sources */,
+				B46986711DAF6B2100C7E726 /* Frameworks */,
+				B46986721DAF6B2100C7E726 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QMJoyStickDemo;
+			productName = QMJoyStickDemo;
+			productReference = B46986741DAF6B2100C7E726 /* QMJoyStickDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B469868C1DAF6B2100C7E726 /* QMJoyStickDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B46986A41DAF6B2100C7E726 /* Build configuration list for PBXNativeTarget "QMJoyStickDemoTests" */;
+			buildPhases = (
+				B46986891DAF6B2100C7E726 /* Sources */,
+				B469868A1DAF6B2100C7E726 /* Frameworks */,
+				B469868B1DAF6B2100C7E726 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B469868F1DAF6B2100C7E726 /* PBXTargetDependency */,
+			);
+			name = QMJoyStickDemoTests;
+			productName = QMJoyStickDemoTests;
+			productReference = B469868D1DAF6B2100C7E726 /* QMJoyStickDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B46986971DAF6B2100C7E726 /* QMJoyStickDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B46986A71DAF6B2100C7E726 /* Build configuration list for PBXNativeTarget "QMJoyStickDemoUITests" */;
+			buildPhases = (
+				B46986941DAF6B2100C7E726 /* Sources */,
+				B46986951DAF6B2100C7E726 /* Frameworks */,
+				B46986961DAF6B2100C7E726 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B469869A1DAF6B2100C7E726 /* PBXTargetDependency */,
+			);
+			name = QMJoyStickDemoUITests;
+			productName = QMJoyStickDemoUITests;
+			productReference = B46986981DAF6B2100C7E726 /* QMJoyStickDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B469866C1DAF6B2100C7E726 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = metthew;
+				TargetAttributes = {
+					B46986731DAF6B2100C7E726 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					B469868C1DAF6B2100C7E726 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B46986731DAF6B2100C7E726;
+					};
+					B46986971DAF6B2100C7E726 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B46986731DAF6B2100C7E726;
+					};
+				};
+			};
+			buildConfigurationList = B469866F1DAF6B2100C7E726 /* Build configuration list for PBXProject "QMJoyStickDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B469866B1DAF6B2100C7E726;
+			productRefGroup = B46986751DAF6B2100C7E726 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B46986731DAF6B2100C7E726 /* QMJoyStickDemo */,
+				B469868C1DAF6B2100C7E726 /* QMJoyStickDemoTests */,
+				B46986971DAF6B2100C7E726 /* QMJoyStickDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B46986721DAF6B2100C7E726 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B46986871DAF6B2100C7E726 /* LaunchScreen.storyboard in Resources */,
+				B46986B51DAF6B8100C7E726 /* stick_normal.png in Resources */,
+				B46986841DAF6B2100C7E726 /* Assets.xcassets in Resources */,
+				B46986821DAF6B2100C7E726 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B469868B1DAF6B2100C7E726 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B46986961DAF6B2100C7E726 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B46986701DAF6B2100C7E726 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B469867F1DAF6B2100C7E726 /* ViewController.m in Sources */,
+				B46986B41DAF6B8100C7E726 /* QMJoyStick.m in Sources */,
+				B469867C1DAF6B2100C7E726 /* AppDelegate.m in Sources */,
+				B46986791DAF6B2100C7E726 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B46986891DAF6B2100C7E726 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B46986921DAF6B2100C7E726 /* QMJoyStickDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B46986941DAF6B2100C7E726 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B469869D1DAF6B2100C7E726 /* QMJoyStickDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B469868F1DAF6B2100C7E726 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B46986731DAF6B2100C7E726 /* QMJoyStickDemo */;
+			targetProxy = B469868E1DAF6B2100C7E726 /* PBXContainerItemProxy */;
+		};
+		B469869A1DAF6B2100C7E726 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B46986731DAF6B2100C7E726 /* QMJoyStickDemo */;
+			targetProxy = B46986991DAF6B2100C7E726 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B46986801DAF6B2100C7E726 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B46986811DAF6B2100C7E726 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B46986851DAF6B2100C7E726 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B46986861DAF6B2100C7E726 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B469869F1DAF6B2100C7E726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B46986A01DAF6B2100C7E726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B46986A21DAF6B2100C7E726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QMJoyStickDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.metthew.QMJoyStickDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B46986A31DAF6B2100C7E726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QMJoyStickDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.metthew.QMJoyStickDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B46986A51DAF6B2100C7E726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QMJoyStickDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.metthew.QMJoyStickDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QMJoyStickDemo.app/QMJoyStickDemo";
+			};
+			name = Debug;
+		};
+		B46986A61DAF6B2100C7E726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QMJoyStickDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.metthew.QMJoyStickDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QMJoyStickDemo.app/QMJoyStickDemo";
+			};
+			name = Release;
+		};
+		B46986A81DAF6B2100C7E726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QMJoyStickDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.metthew.QMJoyStickDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QMJoyStickDemo;
+			};
+			name = Debug;
+		};
+		B46986A91DAF6B2100C7E726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QMJoyStickDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.metthew.QMJoyStickDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QMJoyStickDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B469866F1DAF6B2100C7E726 /* Build configuration list for PBXProject "QMJoyStickDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B469869F1DAF6B2100C7E726 /* Debug */,
+				B46986A01DAF6B2100C7E726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B46986A11DAF6B2100C7E726 /* Build configuration list for PBXNativeTarget "QMJoyStickDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B46986A21DAF6B2100C7E726 /* Debug */,
+				B46986A31DAF6B2100C7E726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B46986A41DAF6B2100C7E726 /* Build configuration list for PBXNativeTarget "QMJoyStickDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B46986A51DAF6B2100C7E726 /* Debug */,
+				B46986A61DAF6B2100C7E726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B46986A71DAF6B2100C7E726 /* Build configuration list for PBXNativeTarget "QMJoyStickDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B46986A81DAF6B2100C7E726 /* Debug */,
+				B46986A91DAF6B2100C7E726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B469866C1DAF6B2100C7E726 /* Project object */;
+}

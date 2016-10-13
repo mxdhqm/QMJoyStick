@@ -45,8 +45,6 @@
 
 - (void)callinelength:(CGPoint)point
 {
-    NSLog(@"%f    ----------    %f",point.x,point.y);
-    
     CGFloat centrex = self.frame.size.width/2;          //圆心X
     CGFloat centrey = self.frame.size.height/2;         //圆心Y
     CGFloat radius = self.frame.size.width/2;           //半径
@@ -55,12 +53,12 @@
     
     x = point.x - centrex;
     y = centrey - point.y;
-    NSLog(@"x = %f   y = %f",x, y);
+    //NSLog(@"x = %f   y = %f",x, y);
     
     float current_radius =  sqrtf(x*x + y*y);           //计算改点到圆心的距离
     if(current_radius > radius)
     {
-        NSLog(@"不在圆内");
+        //NSLog(@"不在圆内");
         float circlex = fabs(x) / current_radius * radius;
         float circley = fabs(y) / current_radius * radius;
         if(x < 0 && y > 0)
@@ -87,7 +85,7 @@
     }
     else
     {
-        NSLog(@"在圆内");
+        //NSLog(@"在圆内");
         self.stickView.center = CGPointMake(point.x, point.y);
         
     }

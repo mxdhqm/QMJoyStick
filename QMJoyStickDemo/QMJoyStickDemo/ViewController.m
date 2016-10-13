@@ -1,6 +1,6 @@
 //
 //  ViewController.m
-//  QMJoyStick
+//  QMJoyStickDemo
 //
 //  Created by metthew on 2016/10/13.
 //  Copyright © 2016年 metthew. All rights reserved.
@@ -12,6 +12,7 @@
 @interface ViewController ()
 
 @property (nonatomic, strong) QMJoyStick *joystick;
+
 @end
 
 @implementation ViewController
@@ -20,7 +21,7 @@
     [super viewDidLoad];
     self.joystick = [[QMJoyStick alloc]initWithFrame:CGRectMake(100, 100, 100, 100)];
     [self.view addSubview:self.joystick];
-    
+
 }
 
 

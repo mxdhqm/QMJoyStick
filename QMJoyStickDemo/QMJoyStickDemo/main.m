@@ -1,6 +1,6 @@
 //
 //  main.m
-//  QMJoyStick
+//  QMJoyStickDemo
 //
 //  Created by metthew on 2016/10/13.
 //  Copyright © 2016年 metthew. All rights reserved.
